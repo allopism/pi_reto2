@@ -6,5 +6,5 @@ El proyecto sirve de iniciación al scraping utilizando la librería JSoup. Para
 
 - Se accede a la página web de MotoGP y se obtienen los datos del calendario de la temporada 2027 a través de su HTML.
 - Se obtienen una serie de datos de cada GP: `nombre`, `circuito`, `ciudad` (si la hay), y `fechas` de inicio y final.
-- Se guarda la información en un formato ordenado en un [archivo de texto](src/main/java/resources/calendario.txt).
+- Se guarda la información en un formato ordenado en un [archivo de texto](src/main/resources/calendario.txt).
 - Se lee e imprime dicho archivo de texto por consola.
